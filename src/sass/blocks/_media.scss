@@ -18,6 +18,9 @@
          margin-top: 18px;
       }
    }
+   .consultation {
+      padding: 50px 15px 35px 15px;
+   }
 }
 
 @media (max-width: 767px) {
@@ -39,6 +42,19 @@
          margin-top: 50px;
       }
    }
+   .title_left {
+      font-size: 33px;
+      line-height: 46px;
+   }
+   .feed-form {
+      margin-top: 30px;
+   }
+   .consultation {
+      &__descr {
+         margin-top: 15px;
+      }
+   }
+
 }
 
 @media (max-width: 575px) {
@@ -49,10 +65,10 @@
       margin-top: 6px;
       &_main {
          margin-top: 25px;
-         font-size: 15px;
-         line-height: 28px;
-         width: 250px;
-         height: 47px;
+         font-size: 14px;
+         line-height: 20px;
+         width: 230px;
+         height: 50px;
       }
    }
    .header {
@@ -69,10 +85,9 @@
    }
    .promo {
       min-height: 500px;
-      padding: 16px 15px 30px 15px;
+      padding: 20px 15px 30px 15px;
       &__wrapper {
-         align-items: center;
-         text-align: center;
+         text-align: right;
       }
       &__header {
          font-size: 28px;
@@ -90,6 +105,31 @@
       &__link {
          font-size: 14px;
          margin-top: 5px;
+      }
+   }
+   .advantage {
+      padding: 20px 15px 30px 15px;
+   }
+   .feed-form {
+      width: 230px;
+   }
+   .button_submit {
+      width: 230px;
+      height: 50px;
+      font-size: 14px;
+      line-height: 20px;
+   }
+   .title_left {
+      font-size: 22px;
+      line-height: 33px;
+   }
+   .consultation {
+      padding: 20px 15px 30px 15px;
+      min-height: 570px;
+      &__descr {
+         margin-top: 10px;
+         font-size: 18px;
+         line-height: 25px;
       }
    }
 }
