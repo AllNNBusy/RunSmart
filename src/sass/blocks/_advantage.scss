@@ -2,21 +2,14 @@
    min-Height: 473px;
    padding: 70px 0 65px 0;
    background: #F6F6F6;
-   &__title {
-      color: #0D0D0D;
-      font-weight: 700;
-      font-size: 30px;
-      line-height: 30px;
-      text-align: center;
-   }
    &__wrapper {
       margin-top: 65px;
-      width: 958px;
+      max-width: 958px;
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
    }
-   &__icons {
+   &__item {
       width: 270px;
       text-align: center;
       img {
@@ -24,14 +17,14 @@
          margin: 0 auto;
       }
    }
-   &__text {
+   &__subtitle {
       color: #0D0D0D;
       font-weight: 700;
       font-size: 18px;
       line-height: 29px;
       margin-top: 35px;
    }
-   &__sub-text {
+   &__descr {
       font-weight: 300;
       font-size: 14px;
       line-height: 18px;
