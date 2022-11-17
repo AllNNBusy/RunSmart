@@ -1,0 +1,24 @@
+.carousel {
+   padding: 81px 0;
+   &__inner {
+      position: relative;
+      width: 750px;
+      margin: 0 auto;
+   }
+   &_prev, &_next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: -66px;
+      background: none;
+      border:none;
+      img {
+         width: 31px;
+         height: 50px;
+      }
+   }
+   &_next {
+      right: -66px;
+      left: auto;
+   }
+}
