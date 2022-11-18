@@ -9,7 +9,7 @@
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      left: -66px;
+      left: 0px;
       background: none;
       border:none;
       img {
@@ -18,7 +18,30 @@
       }
    }
    &_next {
-      right: -66px;
+      right: 0px;
       left: auto;
+   }
+   .tns-nav {
+      text-align: center;
+      margin-top: 5px;
+      button {
+         background: #A9A9A9;
+         margin: 0 5px;
+         height: 7px;
+         width: 27px;
+         border: none;
+         &:active {
+            background: red;
+         }
+      }
+   }
+   .tns-outer {
+      position: relative;
+   }
+   .tns-item {
+      img {
+         display: block;
+         margin: 0 auto;
+      }
    }
 }
