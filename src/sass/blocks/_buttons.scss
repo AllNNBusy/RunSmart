@@ -8,6 +8,9 @@
    font-weight: 500;
    text-transform: uppercase;
    color: #FFFFFF;
+   &:active {
+      box-shadow: 0px 5px 64px 27px rgba(255, 34, 0, 0.34) inset;
+   }
    &_main {
       margin-top: 67px;
       width: 303px;
@@ -20,5 +23,12 @@
       height: 58px;
       color: #FFFFFF;
       font-size: 16px;
+   }
+   &_catalog {
+      width: 131px;
+      height: 40px;
+      text-transform: uppercase;
+      font-size: 14px;
+      line-height: 22px;
    }
 }
