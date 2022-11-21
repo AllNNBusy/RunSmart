@@ -250,4 +250,42 @@
          text-align: center;
       }
    }
+   .footer {
+      &__info {
+         width: 320px;
+         height: 200px;
+      }
+      &__addr {
+         margin-top: 30px;
+      }
+      &__phone {
+         margin: 25px 0;
+      }
+   }
+   .modal {
+      min-height: 385px;
+      width: 250px;
+      padding: 25px;
+      border-radius: 5px;
+      &__close {
+         right: -30px;
+      }
+      &_mini {
+         min-height: 140px;
+         padding: 20px;
+      }
+      &__descr_mini {
+         line-height: 24px;
+         font-size: 13px;
+      }
+   }
+   .feed-form_mt25 {
+      width: 200px;
+      margin-top: 25px;
+      button {
+         width: 100%;
+         font-size: 13px;
+         line-height: 25px;
+      }
+   }
 }
