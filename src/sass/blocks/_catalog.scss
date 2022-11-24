@@ -133,7 +133,6 @@
          transition: 0.5s all;
          margin-bottom: 0px;
          padding-left: 19px;
-         list-style-type: none;
          &_active {
             transform: translateX(-100%);
             margin-left: 0px;
@@ -145,6 +144,7 @@
             font-size: 14px;
             line-height: 21px;
             margin-bottom: 5px;
+            list-style-type: none;
             &:before {
                content: '';
                position: absolute;
@@ -154,6 +154,10 @@
                left: -14px;
                top: 6px;
             }
+         }
+         ul {
+            margin: 0;
+            padding: 0;
          }
       }
       &__back {
